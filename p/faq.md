@@ -2,7 +2,7 @@
 layout: post
 title: FAQs
 description: Anything you might need to know about credits, minors, honours etc.
-image: assets/images/FAQs.png
+image: assets/images/FAQ.jpg
 nav-menu: true
 show_tile: true
 ---

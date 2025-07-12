@@ -4,7 +4,7 @@ title: Resources
 landing-title: 'Resources'
 nav-menu: true
 description: Use your LDAP Login to access past papers, lecture notes and other study material
-image: assets/images/Resources.png
+image: assets/images/Resources.jpg
 author: null
 show_tile: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Courses
 description: Course Reviews for Core Courses, Minors and Electives
-image: assets\images\WhatsApp Image 2024-01-05 at 21.26.17_9becbcb4.jpg
+image: assets/images/courses.jpg
 nav-menu: true
 show_tile: true
 ---
@@ -10,17 +10,12 @@ show_tile: true
 <!-- Main -->
 <div id="main" class="alt">
 
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h1>Courses</h1>
-		</header>
-
 <!-- Content -->
-<p>Course reviews have been sorted by course category. For more information about the categories and tagging rules please refer to the booklets given in <a href="https://epdampiitb.github.io/p/resources.html">Resources</a></p>
+<p>Course reviews have been sorted by course category. For more information about the categories and tagging rules please refer to the booklets given in <a href="p/resources.html">Resources</a></p>
+
 
 <div class="row">
+<br>
 	<div class="6u 12u$(small)">
 		<div class="card">
 			<h3><a href="courses/core.html">Core Courses</a></h3>

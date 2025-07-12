@@ -2,7 +2,7 @@
 layout: post
 title: Kaleidoscope
 description: AMAs with profs, Alumni Directory, Talks and Information Sessions
-image: assets/images/Kaleidoscope.png
+image: assets/images/ka.jpg
 nav-menu: true
 ---
 

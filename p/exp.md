@@ -2,20 +2,13 @@
 layout: post
 title: Experiences
 description: Seniors talk about their internships, research projects and positions of responsibility
-image: assets/images/Experiences.jpg
+image: assets/images/Experiences.jpeg
 nav-menu: true
 show_tile: true
 ---
 
 <!-- Main -->
 <div id="main" class="alt">
-
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h1>Experiences</h1>
-		</header>
 
 <!-- Content -->
 <div class="row">
