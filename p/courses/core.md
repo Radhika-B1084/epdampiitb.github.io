@@ -128,9 +128,5 @@ show_tile: false
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
   </tr>
-
-<i style="font-style: italic; margin-top: 1rem;">
-Source: <a href="/files/sss/phyhandbook.pdf" target="_blank">Course Book, Department of Physics</a>
-</i>
 		
 

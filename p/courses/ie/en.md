@@ -14,7 +14,7 @@ show_tile: false
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Department of Electrical Engineering</h2>
+			<h2>Department of Energy</h2>
 		</header>
 
 <!-- Content -->

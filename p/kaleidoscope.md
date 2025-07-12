@@ -9,13 +9,6 @@ nav-menu: true
 <!-- Main -->
 <div id="main" class="alt">
 
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h1>Kaleidoscope</h1>
-		</header>
-
 <!-- Content -->
 		
 <div class="row">

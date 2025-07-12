@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Electrical Engineering
-description: Institute Electives
+title: STEM Electives
+description: 
 image: 
 nav-menu: false
 show_tile: false
@@ -14,7 +14,11 @@ show_tile: false
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Department of Electrical Engineering</h2>
+			<h2>STEM Electives</h2>
 		</header>
 
 <!-- Content -->
+
+<p><a href="ie/en.html">Department of Energy Science and Engineering</a></p>
+		
+<p><a href="ie/ma.html">Department of Mathematics</a></p>

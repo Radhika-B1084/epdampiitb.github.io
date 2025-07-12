@@ -1,20 +1,11 @@
 ---
 layout: post
 title: Resources
-landing-title: 'Resources'
 nav-menu: true
 description: Use your LDAP Login to access past papers, lecture notes and other study material
 image: assets/images/Resources.jpg
-author: null
 show_tile: true
 ---
-
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h1>Resources</h1>
-		</header>
 
 <!-- Two -->
 <section id="two">
@@ -24,9 +15,9 @@ show_tile: true
 	</header>
 	<!--p></p-->
 	<ul class="actions">
-	    <li><a href="../files/sss/phyhandbook.pdf" class="button next" target="_blank">Department Handbook</a></li>
-	    <li><a href="../files/sss/UGInfo.pdf" class="button next" target="_blank">UG Info Booklet</a></li>
-	    <li><a href="../files/sss/cib2020.pdf" class="button next" target="_blank">Course Info Booklet</a></li>
+	    <li><a href="https://drive.google.com/file/d/15hrYllAZ5jkDyjvUp7NFatUZoGuBkTTN/view?usp=sharing" class="button next" target="_blank">Department Handbook</a></li>
+	    <li><a href="https://drive.google.com/file/d/1BAq5E3adxSSpKH_a90WdkKNN4EcnIZuN/view?usp=sharing" class="button next" target="_blank">UG Rulebook</a></li>
+	    <li><a href="https://drive.google.com/file/d/1Fgt7CbhNPooRSz8t5UhHZysWH638lr1s/view?usp=sharing" class="button next" target="_blank">Course Info Booklet</a></li>
 	</ul>
     </div>
 </section>
@@ -39,15 +30,14 @@ show_tile: true
 	</header>
 	<ul>
 	    <li><a href="https://www.phy.iitb.ac.in/" target="_blank">Department of Physics Website</a></li>
-	    <li><a href="https://www.iitb.ac.in/acad/" target="_blank">Academic Homepage</a></li>
-	    <li><a href="https://www.iitb.ac.in/newacadhome/toacadcalender.jsp" target="_blank">Academic Calendar</a></li>
-	    <li><a href="https://www.iitb.ac.in/newacadhome/rulesUG.jsp" target="_blank">IIT Bombay Rules and Regulations</a></li>
-	    <li><a href="../files/sss/ugrulebook.pdf" target="_blank">UG Rule Book</a></li>
-	    <li><a href="https://www.iitb.ac.in/newacadhome/circular.jsp" target="_blank">Circulars</a></li>
-	    <li><a href="https://www.iitb.ac.in/en/about-iit-bombay/iit-bombay-holidays-list" target="_blank">List of Holidays</a></li>
-	    <li><a href="https://www.iitb.ac.in/newacadhome/timetable.jsp" target="_blank">Timetable</a></li>
-	    <li><a href="http://placements.iitb.ac.in/trainingblog/" target="_blank">Internship Blog</a></li>
-	    <li><a href="https://drive.google.com/file/d/12LDC5v3Uw6CI_KmcCErC1kt3yHRm7iGJ/view" target="_blank">Internship Preparation Booklet</a></li>
-	    <li><a href="http://placements.iitb.ac.in/blog/" target="_blank">Placement Blog</a></li>
-	    <li><a href="https://drive.google.com/file/d/1D7f-6LxkEXfNb54ChdtEDiAzb3nM15vD/view" target="_blank">Placement Bluebook</a></li>
+	    <li><a href="https://acad.iitb.ac.in/" target="_blank">Academic Homepage</a></li>
+	    <li><a href="https://drive.google.com/file/d/1C1umQly3r7PezvTiwEm9cdatEy9qv8ya/view?usp=sharing" target="_blank">Academic Calendar</a></li>
+		<li><a href="https://drive.google.com/drive/folders/1JNMVGjRfSolvyHezypcwVCOURu4UYnR5?usp=drive_link" target="_blank">Sophomore 101</a></li>
+		<li><a href="https://drive.google.com/drive/folders/1O3aYQyNUjkfkGAp1fAv06_Dr8tHvxVKI?usp=drive_link" target="_blank">Previous Year Questions</a></li>
+		<li><a href="https://drive.google.com/file/d/1T_SZ-zhy50ZXuWwqyCkJnuXV3c6OFFAE/view?usp=sharing" target="_blank">IDDDP Booklet</a></li>
+		<li><a href="https://drive.google.com/file/d/1gmYtKpIV0Pzkcm-YmqzjLxEvZlIccDjd/view?usp=sharing" target="_blank">IDDDP Quantum Technology</a></li>
+		<li><a href="https://drive.google.com/file/d/10Qvl9Y0izCbaclClcWJXR_0DHeZ0ESME/view?usp=sharing" target="_blank">University Internship Booklet</a></li>
+		<li><a href="https://docs.google.com/document/d/1YHiwwoXjo_TgdMqDoxvjSz2mfFS5rxYAtzd7Y2tkZ9A/edit?usp=sharing" target="_blank">Internship Prep Resources</a></li>
+
+
 	</ul>
