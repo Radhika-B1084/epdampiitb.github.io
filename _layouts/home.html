@@ -16,8 +16,13 @@
             <div class="content">
                 <p style="text-transform: uppercase;">{{ site.description }}</p>
                 <ul class="actions">
-                    <li><a href="#two" class="button next scrolly">Scroll down for more :)</a></li>
-                </ul>
+    <li>
+        <div class="button-container">
+            <img src="assets/images/cat/cat.png" alt="Black Cat" class="cat-image">
+            <a href="#two" class="button next scrolly">Scroll down for more :)</a>
+        </div>
+    </li>
+</ul>
             </div>
         </div>
     </section>
@@ -50,5 +55,21 @@
     
 
 </body>
+<style>
+.button-container {
+    position: relative;
+    display: inline-block;
+}
 
+.cat-image {
+    position: absolute;
+    top: -39px; 
+    left: 5%;
+    transform: translateX(-50%);
+    width: 60px;
+    pointer-events: none;
+    z-index: 5;
+}
+</style>
 </html>
+
