@@ -6,6 +6,18 @@ image: assets/images/ka.jpg
 nav-menu: true
 ---
 
+<div id="mybox" style="position: relative;">
+  <!-- Your box content here -->
+
+  <img src="/assets/images/sleepcat.gif" alt="sleepy cat" class="floating-cat">
+</div>
+
+
+<iframe src="/files/notgames/mr-bullet/index.html"
+        width="800"
+        height="600"
+        style="border: none;"></iframe>
+
 <!-- Main -->
 <div id="main" class="alt">
 
