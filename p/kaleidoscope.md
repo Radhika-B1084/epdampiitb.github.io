@@ -6,6 +6,11 @@ image: assets/images/ka.jpg
 nav-menu: true
 ---
 
+<!-- Main -->
+<div id="main" class="alt">
+
+<!-- Content -->
+
 <div id="mybox" style="position: relative;">
   <!-- Your box content here -->
 
@@ -13,17 +18,8 @@ nav-menu: true
 </div>
 
 
-<iframe src="/files/notgames/mr-bullet/index.html"
-        width="800"
-        height="600"
-        style="border: none;"></iframe>
-
-<!-- Main -->
-<div id="main" class="alt">
-
-<!-- Content -->
-		
 <div class="row">
+<br>
 	<div class="6u 12u$(small)">
 		<h3><a href="kaleidoscope/ama.html">Ask Me Anything!</a></h3>
 		<p>Listen in as faculty members talk about their research and get candid about their lives and experiences</p>
