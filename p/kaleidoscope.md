@@ -30,7 +30,7 @@ nav-menu: true
 		<p>Find out about our sessions with profs, alumni, scientists and other people who visit our department</p>
 	</div>
 	<div class="4u$ 12u$(medium)">
-		<h3>Newsletter</h3>
-		<p>Check out the 2019 physics department newsletter <a href="../files/news/news2019.pdf" target="_blank">here</a>. The <a href="../files/news/news2018.pdf" target="_blank">2018 edition</a> had to be dug up from the archives while the <a href="../files/news/news2016.pdf" target="_blank">2016 edition</a> was safe with Insight</p>
+		<h3><a href="kaleidoscope/newsletter.html">Newsletter</a></h3>
+		<p>Can't keep up with what's happening? FOMO much? Here's the Newsletter so you're all caught up!</p>
 	</div>
 </div>

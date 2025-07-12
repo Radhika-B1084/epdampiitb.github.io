@@ -19,6 +19,6 @@ show_tile: false
 
 <!-- Content -->
 <ul>
-	<li><a href="https://epdampiitb.github.io/p/kaleidoscope/alumni/POST2019.html">PRE 2020</a></li>
-	<li><a href="https://epdampiitb.github.io/p/kaleidoscope/alumni/PRE2020.html">POST 2020</a></li>
+	<li><a href="alumni/PRE2020.html">PRE 2020</a></li>
+	<li><a href="alumni/POST2020.html">POST 2020</a></li>
 </ul>
