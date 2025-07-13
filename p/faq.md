@@ -7,8 +7,11 @@ nav-menu: true
 show_tile: true
 ---
 
+<!-- Floating Cat GIF Link -->
+<div id="mybox" style="position: relative;">
+  <img src="/assets/images/cat/fishwater.gif" alt="Fish" class="floating-cat" onclick="goToCatWorld()" />
+</div>
 
-<hr>
 <h2>General</h2>
 		    
 <b><i>Where can I find the BTech/DD curriculum?</i></b>
@@ -107,3 +110,26 @@ Audit – Courses from any dept. (including yours) Not counted in Core CPI (non-
 Sit-Through – Courses from any dept. for which you do not register but attend classes due to interest with the permission of the instructor.
 
 <i>Compiled by: Shobhna Misra</i>
+
+<!-- Cat Animation Style -->
+<style>
+.floating-cat {
+  width: 150px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: transform 0.2s ease;
+}
+
+.floating-cat:hover {
+  transform: scale(1.2) rotate(-2deg);
+}
+
+</style>
+<!-- JavaScript Redirect -->
+<script>
+function goToCatWorld() {
+    window.location.href = 'fish.html';
+}
+</script>

@@ -38,6 +38,5 @@ show_tile: true
 		<li><a href="https://drive.google.com/file/d/1gmYtKpIV0Pzkcm-YmqzjLxEvZlIccDjd/view?usp=sharing" target="_blank">IDDDP Quantum Technology</a></li>
 		<li><a href="https://drive.google.com/file/d/10Qvl9Y0izCbaclClcWJXR_0DHeZ0ESME/view?usp=sharing" target="_blank">University Internship Booklet</a></li>
 		<li><a href="https://docs.google.com/document/d/1YHiwwoXjo_TgdMqDoxvjSz2mfFS5rxYAtzd7Y2tkZ9A/edit?usp=sharing" target="_blank">Internship Prep Resources</a></li>
-
-
+		<li><a href="https://drive.google.com/drive/folders/1V8fSpU4S08oGp-2KL4Y--TVdi6Hjrpb1?usp=drive_link" target="_blank">Resume Repository</a></li>
 	</ul>
