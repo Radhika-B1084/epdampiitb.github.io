@@ -37,16 +37,22 @@ footer {
   text-align: center;
 }
 
+#swipe-zone {
+  touch-action: none;
+}
+
 </style>
 </head>
 <body>
 
- <div class="game-wrapper">
+<div class="game-wrapper">
+  <div id="swipe-zone">
     <canvas width="320" height="640" id="game"></canvas>
-    <footer>
-      © 2025 Tetris | EP DAMP
-    </footer>
   </div>
+  <footer>
+    © 2025 Tetris | EP DAMP
+  </footer>
+</div>
 
 <script>
 function getRandomInt(min, max) {
@@ -89,8 +95,6 @@ function getNextTetromino() {
   };
 }
 
-// rotate an NxN matrix 90deg
-// @see https://codereview.stackexchange.com/a/186834
 function rotate(matrix) {
   const N = matrix.length - 1;
   const result = matrix.map((row, i) =>
@@ -243,6 +247,86 @@ let count = 0;
 let tetromino = getNextTetromino();
 let rAF = null;  // keep track of the animation frame so we can cancel it
 let gameOver = false;
+
+let touchStartX = null;
+let touchStartY = null;
+
+const swipeZone = document.getElementById('swipe-zone');
+
+swipeZone.addEventListener('touchstart', function(e) {
+  const touch = e.changedTouches[0];
+  touchStartX = touch.screenX;
+  touchStartY = touch.screenY;
+}, false);
+
+swipeZone.addEventListener('touchend', function(e) {
+  const touch = e.changedTouches[0];
+  const deltaX = touch.screenX - touchStartX;
+  const deltaY = touch.screenY - touchStartY;
+
+  const absX = Math.abs(deltaX);
+  const absY = Math.abs(deltaY);
+
+  if (Math.max(absX, absY) > 30) { // minimum swipe distance
+    if (absX > absY) {
+      if (deltaX > 0) {
+        moveRight();
+      } else {
+        moveLeft();
+      }
+    } else {
+      if (deltaY > 0) {
+        drop();
+      } else {
+        rotate();
+      }
+    }
+  }
+}, false);
+
+function moveLeft() {
+  if (gameOver) return;
+  const col = tetromino.col - 1;
+  if (isValidMove(tetromino.matrix, tetromino.row, col)) {
+    tetromino.col = col;
+  }
+}
+
+function moveRight() {
+  if (gameOver) return;
+  const col = tetromino.col + 1;
+  if (isValidMove(tetromino.matrix, tetromino.row, col)) {
+    tetromino.col = col;
+  }
+}
+
+function rotate() {
+  if (gameOver) return;
+  const matrix = rotateMatrix(tetromino.matrix);
+  if (isValidMove(matrix, tetromino.row, tetromino.col)) {
+    tetromino.matrix = matrix;
+  }
+}
+
+function drop() {
+  if (gameOver) return;
+  const row = tetromino.row + 1;
+  if (!isValidMove(tetromino.matrix, row, tetromino.col)) {
+    tetromino.row = row - 1;
+    placeTetromino();
+  } else {
+    tetromino.row = row;
+  }
+}
+
+// rename original rotate() to rotateMatrix()
+function rotateMatrix(matrix) {
+  const N = matrix.length - 1;
+  const result = matrix.map((row, i) =>
+    row.map((val, j) => matrix[N - j][i])
+  );
+  return result;
+}
 
 // game loop
 function loop() {
