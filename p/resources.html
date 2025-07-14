@@ -346,7 +346,12 @@
 		<header class="major">
 			<h1>Resources</h1>
 		</header>
-		<!-- Two -->
+		<!-- Floating Cat GIF Link -->
+<div id="mybox" style="position: relative;">
+  <img src="/assets/images/cat/rainbowsleepcat.gif" alt="Eepy Cat" class="floating-cat" onclick="goToCatWorld()" />
+</div>
+
+<!-- Two -->
 <section id="two">
     <div class="inner">
 	<header class="major">
@@ -379,6 +384,29 @@
 		<li><a href="https://docs.google.com/document/d/1YHiwwoXjo_TgdMqDoxvjSz2mfFS5rxYAtzd7Y2tkZ9A/edit?usp=sharing" target="_blank">Internship Prep Resources</a></li>
 		<li><a href="https://drive.google.com/drive/folders/1V8fSpU4S08oGp-2KL4Y--TVdi6Hjrpb1?usp=drive_link" target="_blank">Resume Repository</a></li>
 	</ul>
+
+<!-- Cat Animation Style -->
+<style>
+.floating-cat {
+  width: 100px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: transform 0.2s ease;
+}
+
+.floating-cat:hover {
+  transform: scale(1.2) rotate(-2deg);
+}
+</style>
+
+<!-- JavaScript Redirect -->
+<script>
+function goToCatWorld() {
+    window.location.href = 'games/solitare.html';
+}
+</script>
 </div></section>
 
 	</div>
