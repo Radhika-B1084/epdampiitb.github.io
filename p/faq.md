@@ -130,6 +130,6 @@ Sit-Through – Courses from any dept. for which you do not register but attend 
 <!-- JavaScript Redirect -->
 <script>
 function goToCatWorld() {
-    window.location.href = 'fish.html';
+    window.location.href = 'games/fish.html';
 }
 </script>

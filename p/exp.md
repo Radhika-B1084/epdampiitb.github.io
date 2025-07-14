@@ -10,6 +10,11 @@ show_tile: true
 <!-- Main -->
 <div id="main" class="alt">
 
+<!-- Floating Cat GIF Link -->
+<div id="mybox" style="position: relative;">
+  <img src="/assets/images/cat/bathingcat.gif" alt="Bathing Cat" class="floating-cat" onclick="goToCatWorld()" />
+</div>
+
 <!-- Content -->
 <div class="row">
 	<div class="6u$ 12u$(small)">
@@ -26,4 +31,25 @@ show_tile: true
 	</div>
 </div>
 
+<!-- Cat Animation Style -->
+<style>
+.floating-cat {
+  width: 100px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: transform 0.2s ease;
+}
 
+.floating-cat:hover {
+  transform: scale(1.5) rotate(-1deg);
+}
+</style>
+
+<!-- JavaScript Redirect -->
+<script>
+function goToCatWorld() {
+    window.location.href = 'games/pool.html';
+}
+</script>

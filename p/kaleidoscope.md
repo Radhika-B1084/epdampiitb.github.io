@@ -60,6 +60,6 @@ nav-menu: true
 <!-- JavaScript Redirect -->
 <script>
 function goToCatWorld() {
-    window.location.href = 'pacman.html';
+    window.location.href = 'games/pacman.html';
 }
 </script>
