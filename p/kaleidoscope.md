@@ -44,11 +44,11 @@ nav-menu: true
 <!-- Cat Animation Style -->
 <style>
 .floating-cat {
-  width: 200px;
+  width: 100px;
   cursor: pointer;
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 20px;
+  right: 50em;
   transition: transform 0.2s ease;
 }
 
