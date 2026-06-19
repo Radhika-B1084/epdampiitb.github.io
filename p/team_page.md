@@ -48,7 +48,7 @@ show_tile: true
 			<h2>Previous Teams</h2>
 		</header>
 		<ul class="actions">
-			<li><a href="team/team23-24/" class="button">2023-24 Team</a></li>
+			<li><a href="{{ site.baseurl }}/p/team/team23-24/" class="button">2023-24 Team</a></li>
 		</ul>
 	</div>
 </section>
