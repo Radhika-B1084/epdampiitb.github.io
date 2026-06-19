@@ -8,6 +8,26 @@ show_tile: false
 ---
 
 <style>
+.inner {
+  padding-top: 2.5rem;
+  padding-left: 2.5rem;
+  padding-right: 1rem;
+}
+
+.inner > header.major {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.inner > header.major h2 {
+  margin: 0 0 0.5rem 0;
+}
+
+.inner > header.major p {
+  margin: 0;
+  letter-spacing: 0.18em;
+}
+
 .timeline {
   position: relative;
   max-width: 700px;
